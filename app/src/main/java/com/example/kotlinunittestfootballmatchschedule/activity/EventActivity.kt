@@ -43,6 +43,7 @@ class EventActivity : AppCompatActivity(), EventView {
             }
 
             override fun onQueryTextChange(newText: String?): Boolean {
+                eventPresenter.getSearchEvent(newText)
                 return false
             }
         })
