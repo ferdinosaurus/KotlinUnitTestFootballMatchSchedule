@@ -430,21 +430,21 @@ class EventDetailUI(activity: Activity): AnkoComponent<EventDetailActivity>, Eve
         txtintHomeShots.text = data.intHomeShots
         txtintAwayShots.text = data.intAwayShots
 
-        txtStrHomeLineupGoalkeeper.text = data.strHomeLineupGoalkeeper //StringHelper.splitString(data.strHomeLineupGoalkeeper as String,";")
-        txtstrAwayLineupGoalkeeper.text = data.strAwayLineupGoalkeeper //StringHelper.splitString(data.strAwayLineupGoalkeeper as String,";")
+        txtStrHomeLineupGoalkeeper.text = data.strHomeLineupGoalkeeper
+        txtstrAwayLineupGoalkeeper.text = data.strAwayLineupGoalkeeper
 
 
-        txtStrHomeLineupDefense.text = data.strHomeLineupDefense //StringHelper.splitString(data.strHomeLineupDefense as String,";")
-        txtStrAwayLineupDefense.text = data.strAwayLineupDefense//StringHelper.splitString(data.strAwayLineupDefense as String,";")
+        txtStrHomeLineupDefense.text = data.strHomeLineupDefense
+        txtStrAwayLineupDefense.text = data.strAwayLineupDefense
 
-        txtStrHomeLineupMidfield.text = data.strHomeLineupMidfield //StringHelper.splitString(data.strHomeLineupMidfield as String,";")
-        txtStrAwayLineupMidfield.text = data.strAwayLineupMidfield //StringHelper.splitString(data.strAwayLineupMidfield as String,";")
+        txtStrHomeLineupMidfield.text = data.strHomeLineupMidfield
+        txtStrAwayLineupMidfield.text = data.strAwayLineupMidfield
 
-        txtStrHomeLineupForward.text = data.strHomeLineupForward //StringHelper.splitString(data.strHomeLineupForward as String,";")
-        txtStrAwayLineupForward.text = data.strAwayLineupForward //StringHelper.splitString(data.strAwayLineupForward as String,";")
+        txtStrHomeLineupForward.text = data.strHomeLineupForward
+        txtStrAwayLineupForward.text = data.strAwayLineupForward
 
-        txtStrHomeLineupSubstitutes.text = data.strHomeLineupSubstitutes //StringHelper.splitString(data.strHomeLineupSubstitutes as String,";")
-        txtStrAwayLineupSubstitutes.text = data.strAwayLineupSubstitutes //StringHelper.splitString(data.strAwayLineupSubstitutes as String,";")
+        txtStrHomeLineupSubstitutes.text = data.strHomeLineupSubstitutes
+        txtStrAwayLineupSubstitutes.text = data.strAwayLineupSubstitutes
 
         txtStrHomeFormation.text = data.strHomeFormation
         txtStrAwayFormation.text = data.strAwayFormation

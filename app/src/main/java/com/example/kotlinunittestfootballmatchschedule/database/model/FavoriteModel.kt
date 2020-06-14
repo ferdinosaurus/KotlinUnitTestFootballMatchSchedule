@@ -1,8 +1,5 @@
 package com.example.kotlinunittestfootballmatchschedule.database.model
 
-/**
- * Created by rivaldy on 11/27/2019.
- */
 
 data class FavoriteModel(
     val id: Long?,

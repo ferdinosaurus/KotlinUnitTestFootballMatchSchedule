@@ -23,10 +23,6 @@ class MainActivity : AppCompatActivity() , MainView {
     }
 
     private fun init(){
-        //val request = ApiRepository()
-        //val gson = Gson()
-        //presenter = MainPresenter(this,request,gson)
-        //presenter.getAllLeague()
         presenter = MainPresenter(this,this)
         presenter.setupData()
 

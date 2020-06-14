@@ -33,21 +33,4 @@ class MainPresenter(private val activity: Activity,
 
         view.hideLoading()
     }
-
-    /*
-    fun getTeamList(league: String?) {
-        view.showLoading()
-        doAsync {
-            val data = gson.fromJson(apiRepository
-                .doRequest(TheSportDBApi.getTeams(league)),
-                TeamResponse::class.java
-            )
-
-            uiThread {
-                view.hideLoading()
-                view.showTeamList(data.teams)
-            }
-        }
-    }
-    */
 }
