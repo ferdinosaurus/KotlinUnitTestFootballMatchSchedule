@@ -6,7 +6,6 @@ import android.view.View
 import android.widget.*
 import com.example.kotlinunittestfootballmatchschedule.activity.EventDetailActivity
 import com.example.kotlinunittestfootballmatchschedule.database.dao.FavoriteDao
-import com.example.kotlinunittestfootballmatchschedule.helper.StringHelper
 import com.example.kotlinunittestfootballmatchschedule.model.Event
 import com.example.kotlinunittestfootballmatchschedule.model.Team
 import com.example.kotlinunittestfootballmatchschedule.view.EventDetailView

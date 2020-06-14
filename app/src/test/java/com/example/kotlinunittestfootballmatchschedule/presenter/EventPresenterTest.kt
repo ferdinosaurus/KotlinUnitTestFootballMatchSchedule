@@ -4,7 +4,6 @@ import com.example.kotlinunittestfootballmatchschedule.api.ApiRepository
 import com.example.kotlinunittestfootballmatchschedule.api.TheSportDBApi
 import com.example.kotlinunittestfootballmatchschedule.model.Event
 import com.example.kotlinunittestfootballmatchschedule.model.EventResponse
-import com.example.kotlinunittestfootballmatchschedule.presenter.EventPresenter
 import com.example.kotlinunittestfootballmatchschedule.view.EventView
 import com.google.gson.Gson
 import kotlinx.coroutines.Deferred
